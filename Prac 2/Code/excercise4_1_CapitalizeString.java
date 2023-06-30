@@ -5,29 +5,23 @@ public class excercise4_1_CapitalizeString {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
-        scanner.close();
-
         printCapitalized(input);
     }
 
     public static void printCapitalized(String str) {
-        boolean newWord = true;
+        String[] words = str.split("\s+"); // Split the string into words
 
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-
-            if (Character.isLetter(ch)) {
-                if (newWord) {
-                    System.out.print(Character.toUpperCase(ch));
-                    newWord = false;
+        for (String word : words) {
+            if (!word.isEmpty()) {
+                char firstChar = word.charAt(0);
+                if (Character.isLetter(firstChar)) {
+                    char capitalizedChar = Character.toUpperCase(firstChar);
+                    System.out.print(capitalizedChar);
+                    System.out.print(word.substring(1));
                 } else {
-                    System.out.print(Character.toLowerCase(ch));
+                    System.out.print(word);
                 }
-            } else {
-                System.out.print(ch);
-                if (ch == ' ') {
-                    newWord = true;
-                }
+                System.out.print(" ");
             }
         }
     }
