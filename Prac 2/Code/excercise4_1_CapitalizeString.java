@@ -9,7 +9,7 @@ public class excercise4_1_CapitalizeString {
     }
 
     public static void printCapitalized(String str) {
-        String[] words = str.split("\s+"); // Split the string into words
+        String[] words = str.split("\\s+"); // Split the string into words
 
         for (String word : words) {
             if (!word.isEmpty()) {
