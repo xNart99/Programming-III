@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class excercise3_WordBreaker {
+public class excercise3_4_WordBreaker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a line of text: ");

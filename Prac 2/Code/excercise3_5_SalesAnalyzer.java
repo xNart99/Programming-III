@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class excercise3_SalesAnalyzer {
+public class excercise3_5_SalesAnalyzer {
     public static void main(String[] args) {
         String filename = "sales.dat";
         double totalSales = 0.0;

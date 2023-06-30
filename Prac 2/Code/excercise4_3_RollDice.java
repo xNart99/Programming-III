@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class excercise4_RollDice {
+public class excercise4_3_RollDice {
     public static void main(String[] args) {
         int targetTotal = 2;
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class excercise4_HexadecimalConverter {
+public class excercise4_2_HexadecimalConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a hexadecimal string: ");

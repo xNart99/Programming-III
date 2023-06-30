@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class excercise4_CapitalizeString {
+public class excercise4_1_CapitalizeString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");

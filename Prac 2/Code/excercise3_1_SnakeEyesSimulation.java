@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class excercise3_SnakeEyesSimulation {
+public class excercise3_1_SnakeEyesSimulation {
     public static void main(String[] args) {
         Random random = new Random();
         int rolls = 0;

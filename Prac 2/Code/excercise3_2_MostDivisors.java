@@ -1,4 +1,4 @@
-public class excercise3_MostDivisors {
+public class excercise3_2_MostDivisors {
 
    public static void main(String[] args) {
        int maxDivisors = 1;  // Maximum number of divisors seen so far.

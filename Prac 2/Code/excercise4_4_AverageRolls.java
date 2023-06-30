@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class excercise4_AverageRolls {
+public class excercise4_4_AverageRolls {
     public static void main(String[] args) {
         System.out.println("Total On Dice\tAverage Number of Rolls");
         System.out.println("-------------------------------------");
